@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+html,
+body {
+  position: relative;
+  background: #f5f6fa;
+}
+
+a.active,
+a:hover,
+a:focus,
+a:active {
+  color: #109146;
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
